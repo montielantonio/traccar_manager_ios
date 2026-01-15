@@ -1,5 +1,6 @@
 //
 // Copyright 2016 - 2023 Anton Tananaev (anton@traccar.org)
+// Modified 2026 YNVERT LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,14 +24,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    // Hardcoded server URL for GPSLink
+    static let serverURL = "https://track.gpslinkusa.com/"
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        if UserDefaults.standard.object(forKey: "url") != nil {
-            self.window = UIWindow(frame: UIScreen.main.bounds)
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
-            self.window?.makeKeyAndVisible()
-        }
+        // Always set the server URL and go directly to main view
+        UserDefaults.standard.set(AppDelegate.serverURL, forKey: "url")
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+        self.window?.makeKeyAndVisible()
         
         NotificationCenter.default.addObserver(self, selector: #selector(onReceive(_:)), name: MainViewController.eventLogin, object: nil)
 

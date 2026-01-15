@@ -1,5 +1,6 @@
 //
 // Copyright 2022 Anton Tananaev (anton@traccar.org)
+// Modified 2026 YNVERT LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,8 +20,8 @@ import LocalAuthentication
 
 class SecurityManager {
     
-    private static let service = "traccar"
-    private static let account = "traccar"
+    private static let service = "gpslink"
+    private static let account = "gpslink"
     
     static let shared = SecurityManager()
     

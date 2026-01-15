@@ -17,7 +17,6 @@
 		CE07211A1C86EB9800D057CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0721191C86EB9800D057CE /* Assets.xcassets */; };
 		CE07211D1C86EB9800D057CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE07211B1C86EB9800D057CE /* LaunchScreen.storyboard */; };
 		CE4BBC0B1DE844300074B0CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4BBC0A1DE844300074B0CC /* WebKit.framework */; };
-		CE850DB61E18EF0A00F4F73A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE850DB51E18EF0A00F4F73A /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		CE07211C1C86EB9800D057CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE07211E1C86EB9800D057CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4BBC0A1DE844300074B0CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		CE850DB51E18EF0A00F4F73A /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 			children = (
 				5E59E82D21565CF500C9A9E3 /* TraccarManager.entitlements */,
 				CE0721121C86EB9800D057CE /* AppDelegate.swift */,
-				CE850DB51E18EF0A00F4F73A /* StartViewController.swift */,
 				CE0721141C86EB9800D057CE /* MainViewController.swift */,
 				5E887A2428B954D500C76583 /* SecurityManager.swift */,
 				CE0721161C86EB9800D057CE /* Main.storyboard */,
@@ -124,7 +121,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 1320;
-				ORGANIZATIONNAME = "Anton Tananaev";
+				ORGANIZATIONNAME = "YNVERT LLC";
 				TargetAttributes = {
 					CE07210E1C86EB9800D057CE = {
 						CreatedOnToolsVersion = 7.2;
@@ -195,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE850DB61E18EF0A00F4F73A /* StartViewController.swift in Sources */,
 				CE0721151C86EB9800D057CE /* MainViewController.swift in Sources */,
 				CE0721131C86EB9800D057CE /* AppDelegate.swift in Sources */,
 				5E887A2528B954D500C76583 /* SecurityManager.swift in Sources */,
@@ -293,7 +289,7 @@
 				);
 				MARKETING_VERSION = 4.2;
 				OTHER_SWIFT_FLAGS = "-D FIREBASE";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quisqueyaride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
@@ -424,7 +420,7 @@
 				);
 				MARKETING_VERSION = 4.2;
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quisqueyaride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -449,7 +445,7 @@
 				);
 				MARKETING_VERSION = 4.2;
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quisqueyaride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
