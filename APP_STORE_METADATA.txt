@@ -1,0 +1,44 @@
+# App Store Metadata
+
+## App Name
+GPSLink
+
+## Subtitle (Optional, 30 chars max)
+Direct Connection to Security
+
+## Description
+GPSLink: Your Direct Connection to Security and Control.
+
+GPSLink is the leading platform for real-time vehicle and asset management and tracking. Our application offers an intuitive and powerful interface to monitor your fleet or personal vehicle with professional precision.
+
+Key Features:
+• Real-Time Tracking: View the exact location of your units 24/7.
+• Route History: Access detailed routes, stops, and activity times.
+• Smart Alerts: Receive instant notifications for speeding, ignition on/off, and geofence breaches.
+• Fleet Optimization: Improve your business's operational efficiency with detailed reports.
+• Total Security: Maintain complete control of your assets from anywhere.
+
+With GPSLink, you don't just track; you manage the peace of mind of your business and family.
+
+## Keywords (100 chars max)
+tracking,GPS,locator,fleets,security,vehicles,monitoring,car,control,logistics,Dominican Republic
+
+## Promotional Text (170 chars max)
+Monitor your fleet or vehicle in real-time. Secure, reliable, and easy to use.
+
+## Support URL
+https://sites.google.com/view/gpslink/contact
+
+## Privacy Policy URL
+https://sites.google.com/view/gpslink/privacy
+
+## Copyright
+2026 Ynvert LLC
+
+## Contact Information
+Email: info@gpslinkusa.com
+Phone: +1 (305) 927-2739
+
+## Notes for Review
+Test Account: demo@gpslink.com
+Password: demo123
