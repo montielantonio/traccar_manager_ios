@@ -1,0 +1,31 @@
+1. Information We Collect
+
+Location Data: We collect latitude, longitude, speed, and direction data from linked GPS devices to provide the tracking service.
+
+Mobile Device Data: If you use the app, we collect unique device identifiers to send push notifications.
+
+Account Data: Name, email address, and phone number provided during registration.
+
+2. Background Location Usage (Apple/Google Requirement)
+
+Critical Statement: "GpsLink collects location data to enable real-time tracking and route history, even when the app is closed or not in use. This data is necessary for features such as geofence alerts and vehicle security."
+
+3. How We Share Information
+
+We do not sell data: GpsLink does not sell or rent your location data to third parties for advertising purposes.
+
+Service Providers: We share strictly necessary data with infrastructure providers (such as IONOS for hosting and Google Maps for visualization).
+
+4. Data Retention and Deletion
+
+Route data is stored for a period of [90 days/180 days].
+
+Users can request the complete deletion of their account and data by sending an email to info@gpslink.com.
+
+5. Security
+
+We implement SSL (HTTPS) encryption for all communications between the tracker, the server, and the mobile application to prevent interception.
+
+6. International Data Transfer
+
+By using our service, you agree that your data may be processed on servers located in [the United States/Europe], ensuring adequate levels of protection.

@@ -1,0 +1,11 @@
+GpsLink - Satellite Tracking Platform
+
+Service Objective: GpsLink provides access to GPS monitoring software for fleet management and vehicle security. The user is responsible for the installation and maintenance of the physical equipment.
+
+Legal Use and Consent: The client declares that they own the registered vehicles or have the explicit consent of the drivers. The use of GpsLink for espionage or tracking individuals without their permission is strictly prohibited and will result in immediate termination of the service.
+
+Service Availability: Although we strive to keep the platform active 24/7 (using high-availability servers such as IONOS), GpsLink is not responsible for interruptions caused by failures in the GPRS/4G network of telecommunications providers or lack of GPS signal.
+
+Engine Cut-Off: The remote engine cut-off function is the sole responsibility of the user. GpsLink is not liable for any damages or accidents resulting from the use of this function while the vehicle is in motion.
+
+Payments: The service is billed monthly. Non-payment of the fee will result in the automatic suspension of access to the platform.
